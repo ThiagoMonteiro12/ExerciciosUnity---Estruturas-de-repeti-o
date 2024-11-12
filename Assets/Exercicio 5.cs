@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Exercicio4 : MonoBehaviour
+public class Exercicio5 : MonoBehaviour
 {
-
-
-    int pontuacao;
+    int dificuldade;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 7; i++)
+        for (int i = 0; i != 6; i++)
         {
-            pontuacao = 10;
+            dificuldade = +5;
+            
         }
-        print(pontuacao);
+        print(dificuldade);
+
     }
 
     // Update is called once per frame
