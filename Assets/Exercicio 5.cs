@@ -15,6 +15,8 @@ public class Exercicio5 : MonoBehaviour
         }
         print(dificuldade);
 
+
+
     }
 
     // Update is called once per frame
